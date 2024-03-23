@@ -49,7 +49,7 @@ Per instal·lar i executar `phishonthefly`, seguim els següents passos:
 
 ## Menú Principal
 
-![phishonthefly_demo](https://github.com/yulangzhu/phishonthefly/assets/121367624/6d945768-c9e8-48bd-a6b1-2369cf103697)
+![phishonthefly_demo](https://github.com/yulangzhu/phishonthefly/assets/121367624/9a52d932-56cd-4a38-b9af-3d521eeae193)
 
 El script `phishonthefly` inclou un menú principal amb diverses opcions per gestionar l'entorn de phishing:
 
