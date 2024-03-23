@@ -1,0 +1,27 @@
+.TH PHISHONTHEFLY 1 "23/03/2024" "v.1.0.1" "Manual de PHISHONTHEFLY"
+.SH NAME
+phishonthefly \- eina per configurar ràpidament un entorn de phishing
+.SH SYNOPSIS
+.B phishonthefly
+.RI "<el_teu_nom> <port> <mètode_de_publicació>"
+.SH DESCRIPTION
+.B phishonthefly
+és un script de línia de comandes dissenyat per automatitzar la configuració d'un entorn de phishing usant el servidor web Apache. Aquest script configura un entorn complet, inclòs la configuració de VirtualHosts en Apache, configuracions de permisos, i la publicació del lloc a través de mètodes com serveo.net, localhost.run o tunnelmole. Està pensat per a ser utilitzat per professionals de la seguretat informàtica en entorns controlats per a fins educatius o de testejos de penetració.
+.SH OPTIONS
+.TP
+.B --help, -h
+Mostra el missatge d'ajuda i surt. Aquesta opció pot ser utilitzada per obtenir una descripció ràpida de com usar l'script i les opcions disponibles.
+.SH USAGE
+.BR
+Per a utilitzar aquest script, necessitaràs proporcionar el teu nom o identificador, el port on el servidor Apache haurà d'escoltar, i el mètode de publicació que vols utilitzar. Aquí tens un exemple de comanda:
+.RS
+.B sudo python3 phishonthefly Joan 8080 serveo.net
+.RE
+Això configurarà el servidor per escoltar al port 8080 i intentarà publicar el lloc usant serveo.net.
+.SH AUTHOR
+Escrit per Yulang Zhu Xia. Aquest script és d'ús lliure; vegeu el codi font per a les condicions de còpia.
+Aquest script es proporciona només amb fins educatius i de testejos de seguretat. L'ús d'aquest script per a atacar llocs web o sistemes sense el consentiment explícit dels seus propietaris és il·legal i contrari a l'ètica. L'autor no es fa responsable de l'ús il·legitim o maliciós d'aquesta eina. És responsabilitat de l'usuari complir amb totes les lleis aplicables i normatives en l'ús d'aquesta eina.
+.SH "VEGEU TAMBÉ"
+.BR apache2(8),
+.BR ssh(1),
+.BR npm(1)
