@@ -1,5 +1,4 @@
 # phishonthefly
-.
 `phishonthefly` és una eina de línia de comandes que ens permet configurar ràpidament un entorn de phishing utilitzant Apache. Aquest script automàtic crea un entorn complet, incloent la configuració de VirtualHosts en Apache, configuracions de permisos, i opcions de publicació en [serveo.net](https://serveo.net/), [localhost.run](https://localhost.run/) o [tunnelmole](https://tunnelmole.com/)
 
 Per defecte, i com a exemple, ve configurat amb l'antic login de Google. Tanmateix, podem modificar la pàgina d'aterratge i ajustar-la a les nostres necessitats.
